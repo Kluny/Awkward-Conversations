@@ -1,0 +1,12 @@
+rgb(26, 19, 52) dark grey
+rgb(38, 41, 74) less dark grey
+rgb(1, 84, 90) dark green
+rgb(1, 115, 81) forest green
+rgb(3, 195, 131) mint green
+rgb(170, 217, 98) lime green #aad962
+rgb(251, 191, 69) mustard
+rgb(239, 106, 50) orange #ef6a32
+rgb(237, 3, 69) red
+rgb(161, 42, 94) magenta
+rgb(113, 1, 98) fuchsia
+rgb(2, 44, 125) blue

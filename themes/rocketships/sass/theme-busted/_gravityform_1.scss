@@ -1,0 +1,29 @@
+#gform_1 {
+  padding-top: 50px;
+
+  .gform_button {
+    color: #ffffff;
+    background-color: $blue;
+    border: $body-text 11px;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 15px;
+  }
+
+  textarea, input {
+    background-color: $lightgrey;
+    border: 0;
+    width: 100%;
+    border-radius: 0.3rem;
+  }
+
+  .gfield_error {
+    padding-left: 10px;
+  }
+
+  .gfield_checkbox li input[type=checkbox] {
+    margin-top: 0;
+  }
+}
+
+

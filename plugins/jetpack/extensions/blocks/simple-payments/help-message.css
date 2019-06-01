@@ -1,0 +1,17 @@
+.wp-block-jetpack-simple-payments .simple-payments__help-message {
+  display: flex;
+  font-size: 13px;
+  line-height: 1.4em;
+  margin-bottom: 1em;
+  margin-top: -0.5em; }
+  .wp-block-jetpack-simple-payments .simple-payments__help-message svg {
+    margin-right: 5px;
+    min-width: 24px; }
+  .wp-block-jetpack-simple-payments .simple-payments__help-message > span {
+    margin-top: 2px; }
+  .wp-block-jetpack-simple-payments .simple-payments__help-message.simple-payments__help-message-is-error {
+    color: var(--color-error); }
+    .wp-block-jetpack-simple-payments .simple-payments__help-message.simple-payments__help-message-is-error svg {
+      fill: var(--color-error); }
+
+/*# sourceMappingURL=help-message.css.map */

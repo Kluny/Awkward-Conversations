@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA;;;;;;GAMG;ACHF,yDAAoC;EACnC,KAAK,EAAE,IAAI;EACX,QAAQ,EAAE,MAAM;EAChB,UAAU,EDkBK,OAAO;ECjBtB,UAAU,EAAE,KAAK;EACjB,UAAU,EAAE,IAAI;AAEjB,qCAAgB;EASf,SAAS,EAAE,KAAK;EARhB,wCAAG;IACF,SAAS,EAAE,QAAQ;IACnB,WAAW,EAAE,GAAG;IAChB,aAAa,EAAE,MAAM;EAEtB,uCAAE;IACD,aAAa,EAAE,CAAC",
+"sources": ["../../shared/styles/gutenberg-colors.scss","style.scss"],
+"names": [],
+"file": "style.css"
+}

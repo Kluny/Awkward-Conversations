@@ -1,0 +1,102 @@
+/**
+ * Gutenberg variables
+ *
+ * Unfortunately these are not currently (04/2019) published to NPM.
+ *
+ * https://github.com/WordPress/gutenberg/blob/df6a17c8eb07e1355527b01e99ee22cf4c2338d7/assets/stylesheets/_variables.scss
+ */
+.wp-block-jetpack-business-hours {
+  overflow: hidden; }
+  .wp-block-jetpack-business-hours .business-hours__row {
+    display: flex; }
+    .wp-block-jetpack-business-hours .business-hours__row.business-hours-row__add, .wp-block-jetpack-business-hours .business-hours__row.business-hours-row__closed {
+      margin-bottom: 20px; }
+    .wp-block-jetpack-business-hours .business-hours__row .business-hours__day {
+      width: 44%;
+      display: flex;
+      align-items: baseline; }
+      .wp-block-jetpack-business-hours .business-hours__row .business-hours__day .business-hours__day-name {
+        width: 60%;
+        font-weight: bold;
+        overflow-x: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap; }
+      .wp-block-jetpack-business-hours .business-hours__row .business-hours__day .components-form-toggle {
+        margin-right: 4px; }
+    .wp-block-jetpack-business-hours .business-hours__row .business-hours__hours {
+      width: 44%;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap; }
+      .wp-block-jetpack-business-hours .business-hours__row .business-hours__hours .components-base-control {
+        display: inline-block;
+        margin-bottom: 0;
+        width: 48%; }
+        .wp-block-jetpack-business-hours .business-hours__row .business-hours__hours .components-base-control.business-hours__open {
+          margin-right: 4%; }
+        .wp-block-jetpack-business-hours .business-hours__row .business-hours__hours .components-base-control .components-base-control__label {
+          margin-bottom: 0; }
+  .wp-block-jetpack-business-hours .business-hours__remove {
+    align-self: flex-end;
+    margin-bottom: 8px;
+    text-align: center;
+    width: 10%; }
+  .wp-block-jetpack-business-hours .business-hours-row__add button:hover {
+    box-shadow: none !important; }
+  .wp-block-jetpack-business-hours .business-hours__remove button {
+    display: block;
+    margin: 0 auto; }
+  .wp-block-jetpack-business-hours .business-hours-row__add .components-button.is-default:hover,
+  .wp-block-jetpack-business-hours .business-hours__remove .components-button.is-default:hover,
+  .wp-block-jetpack-business-hours .business-hours-row__add .components-button.is-default:focus,
+  .wp-block-jetpack-business-hours .business-hours__remove .components-button.is-default:focus,
+  .wp-block-jetpack-business-hours .business-hours-row__add .components-button.is-default:active,
+  .wp-block-jetpack-business-hours .business-hours__remove .components-button.is-default:active {
+    background: none;
+    box-shadow: none; }
+
+/**
+ * We consider the editor area to be small when the business hours block is:
+ *   - within a column block
+ *   - in a screen < xlarge size with the sidebar open
+ *   - in a screen < small size
+ * In these cases we'll apply small screen styles.
+ */
+@media (max-width: 1080px) {
+  .is-sidebar-opened .wp-block-jetpack-business-hours .business-hours__row {
+    flex-wrap: wrap; }
+    .is-sidebar-opened .wp-block-jetpack-business-hours .business-hours__row.business-hours-row__add .business-hours__day,
+    .is-sidebar-opened .wp-block-jetpack-business-hours .business-hours__row.business-hours-row__add .business-hours__remove {
+      display: none; }
+    .is-sidebar-opened .wp-block-jetpack-business-hours .business-hours__row .business-hours__day {
+      width: 100%; }
+    .is-sidebar-opened .wp-block-jetpack-business-hours .business-hours__row .business-hours__hours {
+      width: 78%; }
+    .is-sidebar-opened .wp-block-jetpack-business-hours .business-hours__row .business-hours__remove {
+      width: 18%; } }
+@media (max-width: 600px) {
+  .wp-block-jetpack-business-hours .business-hours__row {
+    flex-wrap: wrap; }
+    .wp-block-jetpack-business-hours .business-hours__row.business-hours-row__add .business-hours__day,
+    .wp-block-jetpack-business-hours .business-hours__row.business-hours-row__add .business-hours__remove {
+      display: none; }
+    .wp-block-jetpack-business-hours .business-hours__row .business-hours__day {
+      width: 100%; }
+    .wp-block-jetpack-business-hours .business-hours__row .business-hours__hours {
+      width: 78%; }
+    .wp-block-jetpack-business-hours .business-hours__row .business-hours__remove {
+      width: 18%; } }
+.wp-block-columns .wp-block-jetpack-business-hours .business-hours__row {
+  flex-wrap: wrap; }
+  .wp-block-columns .wp-block-jetpack-business-hours .business-hours__row.business-hours-row__add .business-hours__day,
+  .wp-block-columns .wp-block-jetpack-business-hours .business-hours__row.business-hours-row__add .business-hours__remove {
+    display: none; }
+  .wp-block-columns .wp-block-jetpack-business-hours .business-hours__row .business-hours__day {
+    width: 100%; }
+  .wp-block-columns .wp-block-jetpack-business-hours .business-hours__row .business-hours__hours {
+    width: 78%; }
+  .wp-block-columns .wp-block-jetpack-business-hours .business-hours__row .business-hours__remove {
+    width: 18%; }
+
+/*# sourceMappingURL=editor.css.map */

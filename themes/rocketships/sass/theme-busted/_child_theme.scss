@@ -1,0 +1,14 @@
+body {
+  font-family: 'Open Sans', sans-serif !important;
+  background-color: $eggshell;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 740px;
+  }
+}
+
+.home .btn-primary {
+
+}

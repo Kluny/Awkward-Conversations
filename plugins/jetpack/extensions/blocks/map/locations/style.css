@@ -1,0 +1,20 @@
+.edit-post-settings-sidebar__panel-block .component__locations__panel {
+  margin-bottom: 1em; }
+  .edit-post-settings-sidebar__panel-block .component__locations__panel:empty {
+    display: none; }
+  .edit-post-settings-sidebar__panel-block .component__locations__panel .components-panel__body:first-child {
+    border-top: none; }
+  .edit-post-settings-sidebar__panel-block .component__locations__panel .components-panel__body,
+  .edit-post-settings-sidebar__panel-block .component__locations__panel .components-panel__body:first-child,
+  .edit-post-settings-sidebar__panel-block .component__locations__panel .components-panel__body:last-child {
+    max-width: 100%;
+    margin: 0; }
+  .edit-post-settings-sidebar__panel-block .component__locations__panel .components-panel__body button {
+    padding-right: 40px; }
+
+.component__locations__delete-btn {
+  padding: 0; }
+  .component__locations__delete-btn svg {
+    margin-right: 0.4em; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,46 @@
+/**
+ * Gutenberg colors
+ *
+ * Unfortunately these are not currently (04/2019) published to NPM.
+ *
+ * https://github.com/WordPress/gutenberg/blob/df6a17c8eb07e1355527b01e99ee22cf4c2338d7/assets/stylesheets/_colors.scss
+ */
+/**
+ * Gutenberg variables
+ *
+ * Unfortunately these are not currently (04/2019) published to NPM.
+ *
+ * https://github.com/WordPress/gutenberg/blob/df6a17c8eb07e1355527b01e99ee22cf4c2338d7/assets/stylesheets/_variables.scss
+ */
+.wp-block-jetpack-simple-payments {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  display: grid;
+  grid-template-columns: 200px auto;
+  grid-column-gap: 10px; }
+  .wp-block-jetpack-simple-payments .simple-payments__field .components-base-control__label {
+    display: none; }
+  .wp-block-jetpack-simple-payments .simple-payments__field .components-base-control__field {
+    margin-bottom: 1em; }
+  .wp-block-jetpack-simple-payments .simple-payments__field textarea {
+    display: block; }
+  .wp-block-jetpack-simple-payments .simple-payments__field-has-error .components-text-control__input,
+  .wp-block-jetpack-simple-payments .simple-payments__field-has-error .components-textarea-control__input {
+    border-color: var(--color-error); }
+  .wp-block-jetpack-simple-payments .simple-payments__price-container {
+    display: flex;
+    flex-wrap: wrap; }
+    .wp-block-jetpack-simple-payments .simple-payments__price-container .simple-payments__field {
+      margin-right: 10px; }
+    .wp-block-jetpack-simple-payments .simple-payments__price-container .simple-payments__help-message {
+      flex: 1 1 100%;
+      margin-top: 0; }
+  .wp-block-jetpack-simple-payments .simple-payments__field-price .components-text-control__input {
+    max-width: 90px; }
+  .wp-block-jetpack-simple-payments .simple-payments__field-email .components-text-control__input {
+    max-width: 400px; }
+  .wp-block-jetpack-simple-payments .simple-payments__field-multiple .components-toggle-control__label {
+    line-height: 1.4em; }
+  .wp-block-jetpack-simple-payments .simple-payments__field-content .components-textarea-control__input {
+    min-height: 32px; }
+
+/*# sourceMappingURL=editor.css.map */

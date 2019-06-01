@@ -1,0 +1,30 @@
+.category-card {
+  border-radius: 15px;
+  cursor: pointer;
+  height: 200px;
+  position: relative;
+  width: 18rem;
+
+  .card-body {
+    margin: auto;
+  }
+
+  h3 {
+    color: inherit;
+    margin: 0 0;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+
+

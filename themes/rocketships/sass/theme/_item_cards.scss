@@ -1,0 +1,114 @@
+.category-card {
+
+
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+@media (max-width: 645px) {
+  .card {
+    margin: auto;
+  }
+}
+
+.cards {
+  .columns {
+    perspective: 800px;
+    -webkit-perspective: 800px;
+
+    .hover {
+      transform: rotateY(180deg);
+      -webkit-transform: rotateY(180deg);
+
+      .front {
+      /*  -webkit-transform: rotateY(180deg); */
+      }
+
+      .back {
+        /* -webkit-transform: rotateY(0deg); */
+      }
+    }
+
+  }
+
+  .card {
+    height: 200px;
+    position: relative;
+    transition: all 450ms ease-out;
+    -webkit-transition: all 450ms ease-out;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    cursor: pointer;
+
+    a {
+      text-decoration: none;
+      color: $eggshell;
+    }
+
+  }
+
+  figure {
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 100%;
+    margin: 0 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+
+    figcaption {
+      margin: auto;
+      padding: 2rem;
+      position: relative;
+      z-index: 1;
+      width: 100%;
+    }
+
+    h3 {
+      color: inherit;
+      margin: 0 0;
+    }
+  }
+
+  .front {
+    transform: rotateY(0deg);
+    -webkit-transform: rotateY(0deg);
+    z-index: 3;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+
+
+    &:before {
+      background-color: rgba(0, 0, 0, .2);
+      bottom: 0;
+      content: ' ';
+      left: 0;
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+  }
+
+  .back {
+    background: #333;
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -webkit-border-radius: 15px;
+    z-index: 2;
+  }
+
+  .front:before, .front:after {
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+
+  }
+}
+

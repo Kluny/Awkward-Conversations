@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA;;;;;;GAMG;ACJH,wBAAyB;EACxB,gBAAgB,EDuBA,OAAO;ECtBvB,aAAa,EAAE,GAAG;;AAGnB,iCAAkC;EACjC,KAAK,EAAE,IAAI;;AAGZ,4BAA6B;EAC5B,cAAc,EAAE,GAAG;EACnB,YAAY,EAAE,GAAG",
+"sources": ["../../shared/styles/gutenberg-colors.scss","editor.scss"],
+"names": [],
+"file": "editor.css"
+}

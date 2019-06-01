@@ -1,0 +1,9 @@
+.cards {
+  .columns {
+    perspective: 800px;
+
+    .hover {
+      transform: rotateY(180deg);
+    }
+  }
+}

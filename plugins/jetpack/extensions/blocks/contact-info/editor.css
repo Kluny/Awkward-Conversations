@@ -1,0 +1,16 @@
+.jetpack-contact-info-block {
+  /* css class added to increase specificity */ }
+  .jetpack-contact-info-block .editor-plain-text.editor-plain-text:focus {
+    box-shadow: none; }
+  .jetpack-contact-info-block .editor-plain-text {
+    flex-grow: 1;
+    min-height: unset;
+    padding: 0;
+    box-shadow: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    line-height: inherit;
+    border: none; }
+
+/*# sourceMappingURL=editor.css.map */
